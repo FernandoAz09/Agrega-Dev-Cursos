@@ -1,0 +1,8 @@
+[x]Estruturar a ideia do projeto
+
+[]Definir quais serão os canais do Yt que serão utilizados no projeto 
+
+[]Pesquisar e aplicar coisas novas no projeto // Modal, Pré-processadores ...
+
+[]Idealizar a estilização do projeto
+
