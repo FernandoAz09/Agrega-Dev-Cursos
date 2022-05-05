@@ -1,0 +1,26 @@
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: var(--color-rocket); 
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content, 
+.card__info {
+    padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
