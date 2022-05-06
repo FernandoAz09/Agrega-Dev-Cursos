@@ -1,0 +1,70 @@
+.main-header {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f4788;
+    border-bottom: 10px solid #2f1a8b;
+    height: 200px;
+    width: 100%;
+}
+
+.main-menu {
+    padding-top: 30px;
+    font-family: "Fira Code" ,sans-serif;
+    
+}
+
+.main-title h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 4px 4px 2px rgb(0, 46, 83);
+    padding-top: 30px;
+}
+
+.main-action {
+    display: inline-block;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 60px;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.main-action:hover {
+    color: #fff;
+    transform: scale(1.05);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.884);
+}
+
+/* ******************************  Cards  ********************************** */
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #0f4788; 
+    border-radius: 10px;
+}
+
+.card__image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__content, 
+.card__info {
+    padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
