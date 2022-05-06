@@ -7,7 +7,7 @@
 [X]Idealizar a estilização do projeto
 
 
-[]Pesquisar e aplicar coisas novas no projeto // Modal, Pré-processadores...
+[X]Pesquisar e aplicar coisas novas no projeto // Modal, Pré-processadores...
 
 
 
