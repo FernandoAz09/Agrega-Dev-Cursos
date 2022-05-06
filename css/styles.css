@@ -5,7 +5,6 @@ body {
 .main-header {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #0f4788;
     border-bottom: 10px solid #2f1a8b;
@@ -50,8 +49,6 @@ section .sobre {
     align-items: center;
     justify-content: center;
 }
-
-
 
 
 /* ******************************  Cards  ********************************** */
