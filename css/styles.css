@@ -43,12 +43,17 @@ body {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.884);
 }
 /* ******************************  Section Sobre  ********************************** */
-section .sobre {
+section {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    gap: 10px;
+    margin-left: 10px;
 }
+
+section ul {
+    list-style: square;
+}
+
 
 
 /* ******************************  Cards  ********************************** */
