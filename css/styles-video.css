@@ -1,14 +1,14 @@
 body {
     background: #DDD;
-    height: 100vh;
+
     display: grid;
     grid-template-areas: 
     "header header"
-    "main aside"
+    "main main"
     "footer footer";
 
     grid-template-rows: 180px 1fr 100px;
-    grid-template-columns: 800px 1fr;
+    grid-template-columns: auto;
 }
 
 header {
@@ -51,13 +51,10 @@ header {
 }
 /* ******************************  Section Sobre  ********************************** */
 main {
-    grid-area: main;
-    padding-left: 50px;
+    display: flex;
+    flex-direction: column
 }
 
-aside {
-    grid-area: aside;
-}
 
 
 /* ******************************  Cards  ********************************** */
